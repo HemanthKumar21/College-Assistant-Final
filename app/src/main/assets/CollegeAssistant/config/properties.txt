@@ -1,0 +1,7 @@
+url:http://djustice-android.tumblr.com
+name:VNITBOT
+email:vnitbot@gmail.com
+botmaster:Hemanth Anudeep
+organization:VNIT
+version:0.0.1
+

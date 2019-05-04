@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="language" content="en"/>
+
+<category>
+      <pattern>PROFESSORS</pattern>
+    <template>UA DESHPANDE --- HOD
+    RB KESKAR
+    MP KURHEKAR
+    DD SHRIMANKAR
+    POONAM SHARMA 
+</template>
+    </category>
+
+
+    <category>
+      <pattern>UA DESHPANDE DETAILS</pattern>
+    <template>HEAD OF THE DEPARTMENT
+	Name: Dr. U.A. Deshpande
+	Designation: Professor
+	Qualification: Ph.D. (IIT Kharagpur), M.Tech. (IIT Bombay)
+	Areas of interest: Multi-agent systems, Distributed Systems, Soft Computing
+	Contact No. : 0712-2801027
+	E-mail id: uadeshpande[at]cse[dot]vnit[dot]ac[dot]in
+ 
+</template>
+    </category>
+
+
+<category>
+      <pattern>RB KESKAR DETAILS</pattern>
+    <template> Name: Dr. R.B. Keskar
+	Designation: Associate Professor
+	Qualification: M.Tech. (IIT Bombay), Ph.D.(VNIT)
+	Areas of interest: Telecommunication software, Distributed Systems, Formal Verification, Compiler Optimization
+	Contact No. : 0712-2801558
+	E-mail id: rbkeskar[at]cse[dot]vnit[dot]ac[dot]in
+ 
+</template>
+    </category>
+
+
+<category>
+      <pattern>MP KUREHEKAR DETAILS</pattern>
+    <template>Name: Dr. M. P. Kurhekar
+	Designation: Associate Professor
+	Qualification: M. Tech (IIT Bombay) , Ph.D.(VNIT)
+	Areas of Interest: Theoretical Computer Science, BioInformatics
+	Contact No. : 0712-2801597
+	E-mail id: manishkurhekar[at]cse[dot]vnit[dot]ac[dot]in
+</template>
+    </category>
+
+<category>
+      <pattern>DD SHRIMANKAR DETAILS</pattern>
+    <template> Name: Dr. (Mrs.) D.D. Shrimankar
+	Designation: Assistant Professor
+	Qualification: M.Tech.,Ph.D. (VNIT)
+	Areas of Interest: Parallel and Distributed Systems, Embedded Systems, Computer Networks
+	Contact No. : 0712-2801023
+	E-mail id: dshrimankar[at]cse[dot]vnit[dot]ac[dot]in
+</template>
+    </category>
+
+<category>
+      <pattern>POONAM SHARMA DETAILS</pattern>
+    <template>Name: Dr. Poonam Sharma
+	Designation: Assistant Professor
+	Qualification: M.Tech (RGPV, Bhopal), Ph.D. (MANIT, Bhopal)
+	Areas of Interest: Image Processing, Biomatrics, Neural Networks
+	Contact No. : 0712-2801596
+	Email Id: poonamsharma[at]cse[dot]vnit[dot]ac[dot]inHome
+</template>
+    </category>
+
+<category><pattern>>UA DESHPANDE CONTACT</pattern>
+<template>
+<srai>UA DESHPANDE DETAILS</srai>
+</template>
+</category>
+
+</aiml>

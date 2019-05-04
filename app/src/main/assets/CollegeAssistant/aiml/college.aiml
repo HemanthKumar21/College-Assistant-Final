@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+      <pattern>INTERNSHIPS</pattern>
+      <template>Read the notice regaeding internships from the given link.
+http://www.vnit.ac.in/Docs/Notice%20Board/2018-19/internships.pdf
+	  </template>
+</category>
+
+<category>
+      <pattern>INTERNSHIP</pattern>
+    <template><srai>INTERNSHIPS</srai>
+</template>
+    </category>
+
+
+<category>
+      <pattern>PLACEMENTS</pattern>
+    <template>Read the notice regarding internships from the given link.
+http://www.vnit.ac.in/Docs/Notice%20Board/2018-19/placements.pdf
+</template>
+    </category>
+
+
+    
+
+
+<category>
+      <pattern>PLACEMENT</pattern>
+    <template><srai>PLACEMENTS</srai>
+</template>
+    </category>
+
+<category>
+      <pattern>FIRST YEAR BTECH ADMISSIONS</pattern>
+    <template>To know Different UG Programmes available follow the link
+     Link: http://www.vnit.in/Admissions
+</template>
+    </category>
+
+<category>
+      <pattern>PLACEMENT STATISTICS</pattern>
+    <template><srai>PLACEMENTS</srai>
+</template>
+    </category>
+
+<category>
+      <pattern>ACADEMICS</pattern>
+    <template>Link: http://www.vnit.in/Academics
+</template>
+    </category>
+
+
+<category>
+      <pattern>LIBRARY</pattern>
+    <template>Link: http://www.vnit.in/Library
+</template>
+    </category>
+  </aiml>

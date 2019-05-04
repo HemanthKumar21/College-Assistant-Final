@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="language" content="en"/>
+
+	<category>
+      <pattern>HIGHEST PACKAGE LAST YEAR</pattern>
+      <template>
+		<random>
+			<li>D.E.SHAW offered a package of 20 LPA last year</li>
+			<li>The highest package of 20 LPA was offered by D.E.SHAW last year</li>
+			<li>Maximum package of last year was 20 LPA which was offered by D.E.SHAW</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>AVERAGE PLACEMENT RATE</pattern>
+      <template>
+		<random>
+			<li>VNIT has a average of 80% placement</li>
+			<li>Average placement of last 10 years is around 80%</li>
+			<li>VNIT has consistently achieved an average of around 80% placement for the last 10 years</li>
+		</random>
+	  </template>
+    </category>
+	
+	<category>
+      <pattern>CSE PLACEMENTS</pattern>
+      <template>
+		CSE branch has recorded 83 placements in 2018 with an average of 8.5lpa
+	  </template>
+    </category>
+	<category>
+
+      <pattern>CSE COMPANIES</pattern>
+      <template>
+		GoldmanSachs,
+		MorganStanley,
+		Amazon,
+		JPMorgan,
+		Fidelity,
+		Barclays,
+		Wipro,
+		Infosys
+	  </template>
+    </category>
+	<category>
+      <pattern>MECHANICAL COMPANIES</pattern>
+      <template>
+		Suzuki,
+		Maruti,
+		Reliance,
+	  </template>
+    </category>
+	
+	
+	
+	<category>
+      <pattern>PLACEMENT PROCEDURE</pattern>
+      <template>
+		Depending on various companies.There will be online exam,technical and HR interviews
+	  </template>
+    </category>
+	
+	
+	<category>
+      <pattern>PLACEMENT STATISTICS</pattern>
+      <template>
+		CSE-83,ME-68,ECE-65,CIVIL-59,CHEMICAL-70.These are the number of students placed from each branch in 2018
+	  </template>
+    </category>
+	<category>
+      <pattern>PLACEMENTS DATES</pattern>
+      <template>
+		Placements start from August 1st week and various companies visit college throughout the year
+	  </template>
+    </category>
+	</aiml>
+	
+	

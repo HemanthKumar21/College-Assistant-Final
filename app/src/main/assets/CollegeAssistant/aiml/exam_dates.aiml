@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="language" content="en"/>
+
+<category>
+      <pattern>EXAM DATES</pattern>
+    <template>which exam?</template>
+    </category>
+
+<category>
+      <pattern>first sessional</pattern>
+      <that>which exam?</that>
+      <template><srai>first sessional dates</srai></template>
+    </category>
+
+
+<category>
+      <pattern>second sessional</pattern>
+      <that>which exam?</that>
+    <template>19thFeb- slotA(11:00am) slotB(04:00pm)
+    20thFeb- slotC(11:00am) slotD(04:00pm)
+ 	  22ndFeb- slotE(11:00am) slotF(04:00pm)
+ 	  23rdFeb- slotG(11:00am) slotH(04:00pm)
+</template>
+    </category>
+
+<category>
+      <pattern>first sessional dates</pattern>
+    <template>10thFeb- slotA(11:00am) slotB(04:00pm)
+    11thFeb- slotC(11:00am) slotD(04:00pm)
+ 		12thFeb- slotE(11:00am) slotF(04:00pm)
+ 		13thFeb- slotG(11:00am) slotH(04:00pm)
+</template>
+    </category>
+
+</aiml>

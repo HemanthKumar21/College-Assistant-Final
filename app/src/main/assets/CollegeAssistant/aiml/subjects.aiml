@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="language" content="en"/>
+
+<category>
+      <pattern>third sem subjects</pattern>
+    <template>DSPD1
+    IWP
+    NAPT
+    DCMP
+    DMGT
+
+</template>
+    </category>
+
+<category>
+      <pattern>FOURTH SEM SUBJECTS</pattern>
+    <template>DSPD2
+    AWP
+    CO
+    CPL
+    LAA
+ 
+</template>
+    </category>
+
+
+<category>
+      <pattern>FIFTH SEM SUBJECTS</pattern>
+    <template>IOOM
+    OS
+    NFT
+    TOC
+    DAA
+ 
+</template>
+    </category>
+
+<category>
+      <pattern>SIXTH SEM SUBJECTS</pattern>
+    <template>DBMS
+    LP
+    SE
+    TC
+    CN
+ 
+</template>
+    </category>
+
+<category>
+      <pattern>SEVENTH SEM SUBJECTS</pattern>
+    <template>AI
+    TBI
+    SNS
+    IVP
+    CA
+    BI
+ 
+</template>
+    </category>
+
+<category>
+      <pattern>EIGHTH SEM SUBJECTS</pattern>
+    <template>DS
+    IPC
+    DMDW
+    ML
+    CV
+ 
+</template>
+    </category>
+
+<category>
+      <pattern>OPEN COURSES</pattern>
+    <template>ENERGY CONSERVATION
+    GREEN CHEMISTRY
+    BASIC GERMAN
+    GENERAL ENTERPRENEURSHIP
+ 
+</template>
+    </category>
+
+</aiml>

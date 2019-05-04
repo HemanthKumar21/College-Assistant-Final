@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="language" content="en"/>
+
+<category>
+      <pattern>TIMETABLE</pattern>
+    <template>which day</template>
+    </category>
+
+<category>
+      <pattern>monday</pattern>
+      <that>which day</that>
+    <template>8-9  ==Distributed systems
+    9-10 ==
+    10-11==
+    11-12==Machine Learning
+    12-1 ==
+    
+</template>
+    </category>
+
+<category>
+      <pattern>tuesday</pattern>
+      <that>which day</that>
+    <template>8-9  ==
+    9-10 ==Distributed systems
+    10-11==Computer Vision
+    11-12==Parallel Computing
+    12-1 ==Data Mining
+    
+</template>
+    </category>
+
+<category>
+      <pattern>wednesday</pattern>
+      <that>which day</that>
+    <template>8-9  ==Computer Vision
+    9-10 ==
+    10-11==
+    11-12==Parallel Computing
+    12-1 ==Data Mining
+    
+</template>
+    </category>
+
+<category>
+      <pattern>thursday</pattern>
+      <that>which day</that>
+    <template>8-9  ==
+    9-10 ==
+    10-11==MAchine Learning
+    11-12==Distributed systems
+    12-1 ==Computer Vision
+    
+</template>
+    </category>
+
+<category>
+      <pattern>friday</pattern>
+      <that>which day</that>
+    <template>8-9  ==
+    9-10 ==
+    10-11==Machine Learning
+    11-12==Data Mining
+    12-1 ==Parallel Computing
+    
+</template>
+    </category>
+
+</aiml>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>I AM *</pattern>
+	    <template>Hello <set name="username"><star/>!</set></template>
+	</category>
+	
+	<category>
+	    <pattern>WHO AM I</pattern>
+	    <template>Your name is <get name="username"/></template>
+	</category>
+	
+	<category>
+	    <pattern>REMEMBER *</pattern>
+	    <template>Okay <set name="task"><star/></set></template>
+	</category>
+	
+	<category>
+	    <pattern>TASKS</pattern>
+	    <template>You told me remember-<get name="task"/></template>
+	</category>
+	
+</aiml>

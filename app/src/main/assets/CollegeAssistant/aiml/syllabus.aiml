@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>SYLLABUS</pattern>
+	    <template>Which subject</template>
+	</category>
+	
+	<category>
+	    <pattern>OOP</pattern>
+	    <that>Which Subject</that>
+	    <template>Review of the program development process, Issues in program design, Structured programming, Data and control abstractions, Programming with assertions. Reasoning about programs and proving correctness of programs. Ideas behind imperative, applicative, object oriented and logic programming paradigms such as typing, expressions, pure functions, recursion, higher order functions, encapsulation, inheritance, goal satisfaction, backtracking, unification. Some of the ideas behind the implementation of the paradigms. Course to be centered around problems and applications that demonstrate the main themes</template>
+	</category>
+	
+	<category>
+	    <pattern>CN</pattern>
+	    <that>Which Subject</that>
+	    <template>Switching Techniques: Circuit Switching - need for circuit switching , how circuit switching takes place, space-division and time-division switching, Packet Switching - need for packet switching, how packet switching takes place, difference between virtual-circuit and datagram type packet switching, Message switching, Compare circuit switching, packet switching, message switching.</template>
+	</category>
+
+	<category>
+		<pattern>SYLLABUS MACHINE LEARNING</pattern>
+		<template>MACHINE LEARNING SYLLABUS : NEURAL NETWORKS</template>
+	</category>
+
+	<category>
+		<pattern>SYLLABUS DISTRIBUTED SYSTEMS</pattern>
+		<template>DISTRIBUTED SYSTEMS SYLLABUS : Networking Algorithms</template>
+	</category>
+</aiml>
